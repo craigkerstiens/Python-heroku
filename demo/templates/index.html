@@ -200,8 +200,6 @@ This should also setup an SSH key and pair it with your Heroku account.
 		            $('#createAppForm').fadeTo("slow", 0.35);
 		            $('#progressBar').show();
 		            $('#creatingApp').show();
-					alert($('#emailAddress').val());
-					alert(selectedApp.gitUrl);
 		            $.ajax("/demo/", {
 		                type: 'POST',
 		                data: {
