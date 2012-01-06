@@ -25,7 +25,7 @@ def demo():
     cloud = heroku.from_pass(username, password)
     app = cloud.apps.add()
     r = envoy.run("git clone %s %s" % (repo, app.name.encode("utf-8")), timeout=15)
-        try:
+    try:
         os.chdir(app.name.encode("utf-8"))
         r = envoy.run("git remote add heroku git@heroku.com:%s.git" % app.name.encode("utf-8"))
         r = envoy.run('git push heroku master')
