@@ -18,11 +18,17 @@ def index():
 def demo():
     import envoy
     import heroku
+    print 11
     user = request.values['user'].encode("utf-8")
+    print 12
     repo = request.values['repo'].encode("utf-8")
+    print 13
     username = os.environ['HEROKU_USER']
+    print 14
     password = os.environ['HEROKU_PASS']
+    print 15
     cloud = heroku.from_pass(username, password)
+    print 16
     app = cloud.apps.add()
     try:
         print 1
