@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, session, redirect, url_for, \
-     request, flash, g, jsonify, abort
+     request, g, jsonify, abort
 from functools import wraps
 import time
 import requests 
