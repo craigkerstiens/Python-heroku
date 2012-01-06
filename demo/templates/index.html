@@ -215,8 +215,8 @@ This should also setup an SSH key and pair it with your Heroku account.
 		                        $('#creatingApp').hide();
 		                        $('#appReady').show();
 
-		                        $('#step1').append('<a href="'+ data.result.web_url + '">' + data.result.web_url + '</a>');
-		                        $('#step8').append('<a href="'+ data.result.web_url + '">' + data.result.web_url + '</a>');
+		                        $('#step1').append('<a href="http://'+ data.name + '.herokuapp.com">' + data.result.web_url + '</a>');
+		                        $('#step8').append('<a href="http://'+ data.name + '.herokuapp.com">' + data.result.web_url + '</a>');
 
 		                        $('#step4').append('git clone -o heroku ' + data.result.git_url);
 

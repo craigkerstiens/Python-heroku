@@ -30,14 +30,9 @@ def demo():
         r = envoy.run("git remote add heroku git@heroku.com:%s.git" % app.name.encode("utf-8"))
         r = envoy.run('git push heroku master')
         app = cloud.apps[app.name]
-        print 6
-        print user
         app.collaborators.add(user)
-        print 7
         app.transfer(user)
-        print 8
         result = Response(response = json.dumps({'result': "success", 'name': app.name}), mimetype="application/json")
-        print 9
     except Exception, e:
         print e
         app.destroy()
