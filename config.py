@@ -14,6 +14,7 @@ MAIL_PASSWORD = os.environ.get('SENDGRID_PASSWORD')
 MAIL_USE_TLS = True
 DEFAULT_MAIL_SENDER = 'python@heroku.com'
 MAIL_FAIL_SILENTLY = False
+EXCEPTIONAL_API_KEY = os.environ.get('EXCEPTIONAL_API_KEY')
 
 
 del os
