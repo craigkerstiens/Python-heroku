@@ -1,4 +1,5 @@
 Flask==0.8
+Flask-Exceptional==0.4.8
 Flask-Mail==0.6.1
 Jinja2==2.6
 Werkzeug==0.8.2
