@@ -42,6 +42,7 @@ def demo():
         print 5
         app = cloud.apps[app.name]
         print 6
+        print user
         app.collaborators.add(user)
         print 7
         app.transfer(user)
