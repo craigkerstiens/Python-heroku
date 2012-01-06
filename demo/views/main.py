@@ -18,28 +18,17 @@ def index():
 def demo():
     import envoy
     import heroku
-    print 11
     user = request.values['user'].encode("utf-8")
-    print 12
     repo = request.values['repo'].encode("utf-8")
-    print 13
     username = os.environ['HEROKU_USER']
-    print 14
     password = os.environ['HEROKU_PASS']
-    print 15
     cloud = heroku.from_pass(username, password)
-    print 16
     app = cloud.apps.add()
     try:
-        print 1
         r = envoy.run("git clone %s %s" % (repo, app.name.encode("utf-8")), timeout=15)
-        print 2
         os.chdir(app.name.encode("utf-8"))
-        print 3
         r = envoy.run("git remote add heroku git@heroku.com:%s.git" % app.name.encode("utf-8"))
-        print 4
         r = envoy.run('git push heroku master')
-        print 5
         app = cloud.apps[app.name]
         print 6
         print user
