@@ -1,0 +1,271 @@
+/* line 65, ../../../../app/stylesheets/business/_reset.sass */
+html, body { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; }
+
+/* line 45, ../../../../app/stylesheets/business/_reset.sass */
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, input, label, legend, caption, tbody, tfoot, thead, tr { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; }
+
+/* line 49, ../../../../app/stylesheets/business/_reset.sass */
+blockquote, q { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; }
+
+/* line 51, ../../../../app/stylesheets/business/_reset.sass */
+th, td, caption { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; text-align: left; font-weight: normal; vertical-align: middle; }
+
+/* line 53, ../../../../app/stylesheets/business/_reset.sass */
+table { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; border-collapse: separate; border-spacing: 0; vertical-align: middle; }
+
+/* line 55, ../../../../app/stylesheets/business/_reset.sass */
+a img { border: none; }
+
+/* line 57, ../../../../app/stylesheets/business/_reset.sass */
+li { list-style-type: none; }
+
+/* line 59, ../../../../app/stylesheets/business/_reset.sass */
+*:focus { outline: 0; }
+
+/* line 9, ../../../../app/stylesheets/business/_tools.sass */
+.hide { position: absolute; top: -9999em; }
+
+/* line 3, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header { background-color: #494c5c; border-bottom-color: #636776; min-width: 1044px; }
+/* line 8, ../../../../app/stylesheets/business/_header.sass */
+/*#heroku-header #heroku-logo a { background-image: url(/images/facebook/logo.png); }*/
+/* line 11, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li, #heroku-header ul#heroku-section-nav li { border-left-color: #636776; }
+/* line 13, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a, #heroku-header ul#heroku-section-nav li a { color: #c5c3d3; }
+/* line 15, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a:hover, #heroku-header ul#heroku-section-nav li a:hover { color: white; }
+/* line 17, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a.active, #heroku-header ul#heroku-section-nav li a.active { color: #9def46; }
+/* line 19, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a.active:hover, #heroku-header ul#heroku-section-nav li a.active:hover { color: #9def46; }
+/* line 21, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav { background-color: #424354; }
+/* line 24, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a { color: #72abf9; }
+/* line 26, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a:hover { color: #97baf6; }
+/* line 28, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a.active { color: #9def46; }
+/* line 30, ../../../../app/stylesheets/business/_header.sass */
+#heroku-header ul#heroku-account-nav li a.active:hover { color: #9def46; }
+
+/* line 3, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer { border-top: 1px solid #818794; background-image: url(/images/facebook/footer-background.png); background-color: #aeb4c4; color: #484a5e; }
+/* line 9, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer .nav h3, #heroku-footer #heroku-footer-pull h3 { color: #484a5e; }
+/* line 11, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer .nav h3 a, #heroku-footer #heroku-footer-pull h3 a { color: #484a5e; }
+/* line 13, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer .nav h3 a:hover, #heroku-footer #heroku-footer-pull h3 a:hover { color: #e6e8f2; }
+/* line 15, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer .nav a, #heroku-footer #heroku-footer-pull a { color: #484a5e; }
+/* line 17, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer .nav a:hover, #heroku-footer #heroku-footer-pull a:hover { color: #e6e8f2; }
+/* line 20, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer #heroku-footer-pull dt { color: #484a5e; }
+/* line 22, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer #heroku-footer-pull dt a { color: #484a5e; }
+/* line 24, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer #heroku-footer-pull dt a:hover { color: #e6e8f2; }
+/* line 26, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer #heroku-footer-pull dd { color: #72738f; }
+/* line 28, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer #heroku-footer-pull dd a { color: #72738f; }
+/* line 31, ../../../../app/stylesheets/business/_footer.sass */
+#heroku-footer #heroku-footer-pull #heroku-footer-twitter span { background-image: url(/images/facebook/footer-twitter.png); }
+
+/* line 10, ../../../../app/stylesheets/business/layout.sass */
+html, body { color: #494d5c; background-color: #aeb4c4; }
+/* line 13, ../../../../app/stylesheets/business/layout.sass */
+html a, body a { color: #16171b; text-decoration: none; }
+/* line 16, ../../../../app/stylesheets/business/layout.sass */
+html a:hover, body a:hover { color: #494d5c; text-decoration: underline; }
+
+/* line 67, ../../../../app/stylesheets/business/layout.sass */
+#content { position: relative; }
+/* line 69, ../../../../app/stylesheets/business/layout.sass */
+#content .container { width: 1044px; margin: 0 auto; min-width: 1044px; overflow: hidden; *zoom: 1; }
+/* line 71, ../../../../app/stylesheets/business/layout.sass */
+/*#content.onecol { background-color: #fbfbfc; background-image: url(/images/facebook/section-background.png); background-repeat: repeat-x; background-position: left top; }*/
+/* line 74, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background { position: absolute; bottom: 0; left: 0; height: 100%; width: 100%; text-align: center; }
+/* line 81, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background #crane { position: absolute; bottom: 50px; left: 36px; background-image: url(/static/images/aside-crane.png); background-repeat: no-repeat; width: 284px; height: 225px; }
+/* line 89, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/* line 95, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .background .right, #content.twocol #content-background .background .left { position: absolute; width: 50%; height: 100%; }
+/* line 99, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .background .right { background-color: #d3d8e5; background-position: left top; right: 0; }
+/* line 102, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .background .left { background-color: #fbfbfc; background-position: left top; left: 0; }
+/* line 105, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .container { height: 100%; width: 1044px; margin: 0 auto; min-width: 1044px; overflow: hidden; *zoom: 1; position: relative; }
+/* line 109, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .container .right { background-color: #d3d8e5; background-repeat: repeat-x; background-position: left top; width: 354px; position: absolute; right: 0; top: 0; height: 100%; }
+/* line 116, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .container .right .shadow { border-left: 1px solid #818794; position: absolute; left: 0; width: 18px; height: 100%; }
+/* line 124, ../../../../app/stylesheets/business/layout.sass */
+#content.twocol #content-background .container .left { background-color: #fbfbfc; background-position: left top; width: 690px; position: absolute; left: 0; top: 0; height: 100%; }
+
+/* line 135, ../../../../app/stylesheets/business/layout.sass */
+.twocol .section { float: left; position: relative; width: 618px; padding-left: 36px; padding-right: 36px; }
+/* line 142, ../../../../app/stylesheets/business/layout.sass */
+.twocol .section .section { float: none; width: 100%; padding-left: 0; padding-right: 0; padding-bottom: 36px; padding-top: 36px; }
+/* line 149, ../../../../app/stylesheets/business/layout.sass */
+.twocol .aside { float: left; width: 282px; padding-top: 40px; padding-left: 36px; padding-right: 36px; position: relative; }
+/* line 156, ../../../../app/stylesheets/business/layout.sass */
+.twocol .aside .aside { float: none; width: 258px; padding: 0; padding-right: 24px; margin-bottom: 36px; }
+
+/* line 167, ../../../../app/stylesheets/business/layout.sass */
+#thanks .onecol { background-color: #d3d8e5; background-image: url(/images/facebook/aside-background.png); background-repeat: repeat-x; background-position: left top; }
+/* line 169, ../../../../app/stylesheets/business/layout.sass */
+#thanks .onecol .section { padding: 18px; }
+/* line 171, ../../../../app/stylesheets/business/layout.sass */
+#thanks .onecol .section #note { width: 636px; padding: 18px; margin: 0 auto; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfc), color-stop(100%, #ededf1)); background-image: -webkit-linear-gradient(top, #fbfbfc, #ededf1); background-image: -moz-linear-gradient(top, #fbfbfc, #ededf1); background-image: -o-linear-gradient(top, #fbfbfc, #ededf1); background-image: linear-gradient(top, #fbfbfc, #ededf1); -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 0 5px #494c5c; -moz-box-shadow: 0 0 5px #494c5c; -box-shadow: 0 0 5px #494c5c; margin-bottom: 40px; }
+/* line 181, ../../../../app/stylesheets/business/layout.sass */
+#thanks .onecol .section #note p, #thanks .onecol .section #note p a, #thanks .onecol .section #note h2 { margin-top: 12px; font-size: 20px; font-family: "CorbelRegular", sans-serif; color: #494c5c; line-height: 30px; }
+/* line 187, ../../../../app/stylesheets/business/layout.sass */
+#thanks .onecol .section #note p a, #thanks .onecol .section #note p a a, #thanks .onecol .section #note h2 a { color: #5a6ccc; }
+/* line 189, ../../../../app/stylesheets/business/layout.sass */
+#thanks .onecol .section #note h1 { font-size: 24px; font-family: "CorbelRegular", sans-serif; color: #4360a9; }
+/* line 193, ../../../../app/stylesheets/business/layout.sass */
+#thanks .onecol .section #note h2 { color: #4360a9; }
+
+/* line 5, ../../../../app/stylesheets/business/java.sass */
+.aside .aside { background-position: bottom right; color: #494c5c; font-size: 14px; line-height: 20px; text-shadow: #e0e6fa 0 1px 0px; overflow: hidden; *zoom: 1; overflow: hidden; }
+/* line 15, ../../../../app/stylesheets/business/java.sass */
+.aside .aside h2, .aside .aside dl { overflow: hidden; }
+/* line 17, ../../../../app/stylesheets/business/java.sass */
+.aside .aside a { color: #494c5c; }
+/* line 19, ../../../../app/stylesheets/business/java.sass */
+.aside .aside h2, .aside .aside h2 a { font-family: "CorbelRegular", sans-serif; font-size: 22px; line-height: 36px; padding-bottom: 7px; text-decoration: none; }
+/* line 25, ../../../../app/stylesheets/business/java.sass */
+.aside .aside dl { padding-bottom: 24px; }
+/* line 27, ../../../../app/stylesheets/business/java.sass */
+.aside .aside dl dt { line-height: 17px; }
+/* line 29, ../../../../app/stylesheets/business/java.sass */
+.aside .aside dl dd { line-height: 16px; font-size: 12px; opacity: 0.7; margin-bottom: 14px; white-space: nowrap; }
+/* line 35, ../../../../app/stylesheets/business/java.sass */
+.aside .aside dl dd:last-child { margin-bottom: 0; }
+
+/* line 55, ../../../../app/stylesheets/business/java.sass */
+.section .section { min-height: 0; background-position: left bottom; overflow: hidden; *zoom: 1; }
+/* line 60, ../../../../app/stylesheets/business/java.sass */
+.section .section:last-child { background-image: none; padding-bottom: 4px; margin-bottom: 4px; }
+/* line 66, ../../../../app/stylesheets/business/java.sass */
+.section .section .header h2 { color: #494c5c; font-family: "CorbelRegular", sans-serif; font-size: 30px; padding-bottom: 10px; }
+/* line 71, ../../../../app/stylesheets/business/java.sass */
+.section .section .article { margin-bottom: 10px; }
+/* line 74, ../../../../app/stylesheets/business/java.sass */
+.section .section .article .header { border: none; margin-bottom: 0; overflow: hidden; *zoom: 1; }
+/* line 78, ../../../../app/stylesheets/business/java.sass */
+.section .section .article .header h3 { padding-bottom: 10px; font-size: 20px; color: #9398b3; float: left; font-family: "CorbelRegular", sans-serif; }
+/* line 84, ../../../../app/stylesheets/business/java.sass */
+.section .section .article .header h3 a { color: #b9aff8; font-family: "CorbelRegular", sans-serif; }
+/* line 87, ../../../../app/stylesheets/business/java.sass */
+.section .section .article p, .section .section .article li { font-size: 14px; line-height: 20px; color: #2f313b; }
+/* line 91, ../../../../app/stylesheets/business/java.sass */
+.section .section .article p a, .section .section .article li a { color: #5a6cc9; }
+/* line 93, ../../../../app/stylesheets/business/java.sass */
+.section .section .article p a:hover, .section .section .article li a:hover { color: #5a6cc9; text-decoration: underline; }
+/* line 96, ../../../../app/stylesheets/business/java.sass */
+.section .section .article li { list-style-type: square; margin-left: 1.4em; line-height: 18px; }
+/* line 101, ../../../../app/stylesheets/business/java.sass */
+.section #what .article, .section #how .article { width: 397px; float: left; }
+/* line 104, ../../../../app/stylesheets/business/java.sass */
+.section #what .nav, .section #how .nav { width: 180px; float: left; margin-left: 36px; }
+/* line 109, ../../../../app/stylesheets/business/java.sass */
+.section #what .nav li a, .section #how .nav li a { font-family: "CorbelRegular", sans-serif; font-size: 16px; color: #495590; text-shadow: white 0 1px 1px; display: block; padding: 5px 10px 5px 10px; text-align: center; border-style: solid; border-width: 1px; border-color: #b8bdd0; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f2f7), color-stop(100%, #b8bdd0)); background-image: -webkit-linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); background-image: -moz-linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); background-image: -o-linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); background-image: linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); margin-bottom: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; text-decoration: none; cursor: pointer; background-color: #babfd1; background-position: 0 0; -moz-box-shadow: 0, 1px, 3px, #d1d2d8; -webkit-box-shadow: 0, 1px, 3px, #d1d2d8; -o-box-shadow: 0, 1px, 3px, #d1d2d8; box-shadow: 0, 1px, 3px, #d1d2d8; }
+/* line 45, ../../../../app/stylesheets/business/layout.sass */
+.section #what .nav li a:hover, .section #how .nav li a:hover { color: #5a6cc9; border-color: #c7cbda; background-color: #edeef3; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefdfe), color-stop(100%, #e2e5ee)); background-image: -webkit-linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); background-image: -moz-linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); background-image: -o-linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); background-image: linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); -moz-box-shadow: 0 0 3px #dddddd; -webkit-box-shadow: 0 0 3px #dddddd; }
+/* line 113, ../../../../app/stylesheets/business/java.sass */
+.section #who .successes { margin-top: 18px; margin-bottom: 18px; margin-right: 2px; margin-left: 2px; padding-left: 70px; -moz-box-shadow: 0, 1px, 2px, #c4c9d6; -webkit-box-shadow: 0, 1px, 2px, #c4c9d6; -o-box-shadow: 0, 1px, 2px, #c4c9d6; box-shadow: 0, 1px, 2px, #c4c9d6; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border: 1px solid white; background-color: #eceef2; background-image: url(/images/business/successes-background.png); background-repeat: repeat-x; background-position: center top; background-color: #eceef2; position: relative; *zoom: 1; }
+/* line 28, ../../../../app/stylesheets/business/_tools.sass */
+.section #who .successes:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+/* line 129, ../../../../app/stylesheets/business/java.sass */
+.section #who .successes .half { margin: 0; padding: 0; width: 263px; display: block; float: left; text-align: center; }
+/* line 136, ../../../../app/stylesheets/business/java.sass */
+.section #who .successes .half a.logo { display: block; text-indent: -9000px; width: 200px; height: 90px; background-repeat: no-repeat; background-position: center center; opacity: 1; }
+/* line 144, ../../../../app/stylesheets/business/java.sass */
+.section #who .successes .half a.logo:hover { opacity: 0.8; }
+/* line 146, ../../../../app/stylesheets/business/java.sass */
+.section #who .successes .half a.logo:last-child { border-bottom: none; }
+/* line 149, ../../../../app/stylesheets/business/java.sass */
+.section #why .quotes { padding-top: 18px; padding-bottom: 18px; overflow: hidden; *zoom: 1; }
+/* line 154, ../../../../app/stylesheets/business/java.sass */
+.section #why .quotes { *zoom: 1; }
+/* line 28, ../../../../app/stylesheets/business/_tools.sass */
+.section #why .quotes:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+/* line 156, ../../../../app/stylesheets/business/java.sass */
+.section #why blockquote { margin: 0; width: 180px; padding-left: 36px; float: left; font-family: "CorbelRegular", sans-serif; font-weight: normal; text-align: justify; color: #33385e; font-size: 13px; }
+/* line 44, ../../../../app/stylesheets/business/java.sass */
+.section #why blockquote:first-child { padding-left: 0; }
+/* line 164, ../../../../app/stylesheets/business/java.sass */
+.section #why blockquote .byline { display: block; font-style: oblique; text-align: left; padding-top: 9px; text-indent: -11px; padding-left: 11px; color: #5a73dc; }
+/* line 172, ../../../../app/stylesheets/business/java.sass */
+.section #why blockquote .byline a { color: #5a73dc; text-decoration: none; font-family: "CorbelRegular", sans-serif; }
+/* line 176, ../../../../app/stylesheets/business/java.sass */
+.section #why blockquote .byline a:hover { color: #6a84ef; text-decoration: underline; }
+
+/* line 184, ../../../../app/stylesheets/business/java.sass */
+#intro.slider { text-align: center; background-color: #333642; border-bottom: 1px solid #333642; position: relative; min-width: 1044px; }
+/* line 190, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .shadow { position: absolute; top: 0; left: 0; height: 10px; z-index: 3; width: 100%; min-width: 1044px; }
+/* line 200, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-bounds { overflow: hidden; position: relative; width: 100%; height: 262px; min-width: 1044px; }
+/* line 206, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-canvas { overflow: hidden; *zoom: 1; }
+/* line 209, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-nav { width: 100%; position: absolute; bottom: 10px; left: 0; z-index: 10; text-align: center; }
+/* line 216, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-nav ul { margin: 0 auto; width: 60px; }
+/* line 219, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-nav ul li { display: block; float: left; margin-right: 2px; margin-left: 2px; }
+/* line 224, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-nav ul li a { display: block; background-image: url(/images/business/slider-nav-tabs.png); background-repeat: no-repeat; text-indent: -9000px; height: 20px; width: 16px; background-position: center -60px; }
+/* line 232, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-nav ul li a:hover { background-position: center -40px; }
+/* line 234, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slider-nav ul li.activeSlide a { background-position: center -40px; }
+/* line 237, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide { width: 100%; min-width: 1044px; height: 262px; float: left; text-align: center; background-repeat: repeat; background-position: center top; overflow: hidden !important; position: relative; }
+/* line 247, ../../../../app/stylesheets/business/java.sass */
+/*#intro.slider .slide .background { background-image: url(/images/business/slider-background-fade.png); background-repeat: repeat-x; width: 3000px; margin: 0 auto; height: 804px; position: absolute; z-index: 0; left: -100px; bottom: -360px; -webkit-transform: rotate(5deg); -moz-transform: rotate(5deg); }*/
+/* line 259, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container { width: 1044px; margin: 0 auto; min-width: 1044px; overflow: hidden; *zoom: 1; background-repeat: no-repeat; background-position: 470px 0; position: relative; z-index: 1; height: 402px; font-family: "CorbelRegular", sans-serif; color: #dedfec; }
+/* line 268, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container .title, #intro.slider .slide .container .description, #intro.slider .slide .container .action { width: 400px; margin-left: 30px; text-align: center; }
+/* line 273, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container .action a.button { font-family: "CorbelRegular", sans-serif; font-size: 16px; color: #495590; text-shadow: white 0 1px 1px; display: block; padding: 5px 10px 5px 10px; text-align: center; border-style: solid; border-width: 1px; border-color: #b8bdd0; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f2f7), color-stop(100%, #b8bdd0)); background-image: -webkit-linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); background-image: -moz-linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); background-image: -o-linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); background-image: linear-gradient(top, #f0f2f7 0%, #b8bdd0 100%); margin-bottom: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; text-decoration: none; cursor: pointer; background-color: #babfd1; background-position: 0 0; -moz-box-shadow: 0, 1px, 3px, #d1d2d8; -webkit-box-shadow: 0, 1px, 3px, #d1d2d8; -o-box-shadow: 0, 1px, 3px, #d1d2d8; box-shadow: 0, 1px, 3px, #d1d2d8; color: #3a3e4f; font-size: 18px; margin-bottom: 10px; -moz-border-radius: 9px; -webkit-border-radius: 9px; -o-border-radius: 9px; -ms-border-radius: 9px; -khtml-border-radius: 9px; border-radius: 9px; display: inline-block; -moz-box-shadow: 0, 0, 5px, black; -webkit-box-shadow: 0, 0, 5px, black; -o-box-shadow: 0, 0, 5px, black; box-shadow: 0, 0, 5px, black; padding: 9px 36px 9px 36px; border: 1px solid #f0f2f8; }
+/* line 45, ../../../../app/stylesheets/business/layout.sass */
+#intro.slider .slide .container .action a.button:hover { color: #5a6cc9; border-color: #c7cbda; background-color: #edeef3; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefdfe), color-stop(100%, #e2e5ee)); background-image: -webkit-linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); background-image: -moz-linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); background-image: -o-linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); background-image: linear-gradient(top, #fefdfe 0%, #e2e5ee 100%); -moz-box-shadow: 0 0 3px #dddddd; -webkit-box-shadow: 0 0 3px #dddddd; }
+/* line 283, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container .action a.button:hover { border: 1px solid #f0f2f8; -moz-box-shadow: 0, 0, 5px, #8288aa; -webkit-box-shadow: 0, 0, 5px, #8288aa; -o-box-shadow: 0, 0, 5px, #8288aa; box-shadow: 0, 0, 5px, #8288aa; }
+/* line 286, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container .description, #intro.slider .slide .container .title { text-shadow: black 0px 0px 5px; }
+/* line 288, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container .title { padding-top: 45px; padding-bottom: 20px; font-family: "CorbelRegular", sans-serif; font-size: 32px; }
+/* line 293, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container .description { padding-bottom: 20px; }
+/* line 295, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container p { margin: 0; padding: 0 0 15px 0; font-family: "CorbelRegular", sans-serif; font-size: 24px; line-height: 28px; }
+/* line 301, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container p a { font-family: "CorbelRegular", sans-serif; text-decoration: none; color: #abacb9; }
+/* line 305, ../../../../app/stylesheets/business/java.sass */
+#intro.slider .slide .container p a:hover { color: #eff0fd; }
+
+/* line 312, ../../../../app/stylesheets/business/java.sass */
+#intro #productivity { background-image: url(/static/images/pattern-seigaiha2.png); }
+/* line 314, ../../../../app/stylesheets/business/java.sass */
+#intro #productivity .container { background-image: url(/static/images/django_pony.png); } 
+/* line 316, ../../../../app/stylesheets/business/java.sass */
+#intro #productivity .container .title { color: #daffa7; }
+/* line 318, ../../../../app/stylesheets/business/java.sass */
+#intro #productivity .container .description { color: #b5ff52; }
+
+/* line 321, ../../../../app/stylesheets/business/java.sass */
+.banner { background-color: #445aa6; overflow: hidden; position: absolute; width: 180px; left: -50px; top: 30px; -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-box-shadow: 0 0 3px #282a32; -webkit-box-shadow: 0 0 3px #282a32; }
+/* line 332, ../../../../app/stylesheets/business/java.sass */
+.banner span { border: 1px solid #617bd2; color: white; display: block; font: bold 81.25% "Helvetiva Neue", Helvetica, Arial, sans-serif; margin: 0.05em 0 0.075em 0; padding: 0.5em 3.5em; text-align: center; text-decoration: none; text-shadow: 0 0 0.5em #444444; }

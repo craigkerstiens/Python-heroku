@@ -1,39 +1,133 @@
-<!DOCTYPE html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en'>
+<head>
+    <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='css/java.css') }}">
+    <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="shortcut icon" type="image/png" href="/public/images/favicon.png">
+<link href='https://nav.heroku.com/header.css' media='all' rel='stylesheet' type='text/css' /><link href='https://nav.heroku.com/footer.css' media='all' rel='stylesheet' type='text/css' />
+	<script src="{{ url_for('static', filename='js/less-1.1.3.min.js') }}"></script>	
+    <script src="{{ url_for('static', filename='js/jquery-1.5.2.min.js') }}" type="text/javascript" charset="utf-8"></script>
+	<script src="{{ url_for('static', filename='js/bootstrap-dropdown.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.colorbox-min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.hint.js') }}"></script>
+</head>
+<body>
+	<!DOCTYPE html>
 <html>
     <head>
         <title></title>
         <meta charset="utf-8">
-        <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='css/main.css') }}">
-		<link rel="stylesheet/less" href="{{ url_for('static', filename='css/bootstrap.less') }}" type="text/css"/> 
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/colorbox.css') }}" />
-        <link rel="shortcut icon" type="image/png" href="/public/images/favicon.png">
-		<script src="{{ url_for('static', filename='js/less-1.1.3.min.js') }}"></script>	
-        <script src="{{ url_for('static', filename='js/jquery-1.5.2.min.js') }}" type="text/javascript" charset="utf-8"></script>
-		<script src="{{ url_for('static', filename='js/bootstrap-dropdown.js') }}"></script>
-        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.colorbox-min.js') }}"></script>
-		<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.hint.js') }}"></script>
     </head>
     <body>
+		<div class='slider' id='intro'>
+		<div class='shadow'></div>
+		<h1 class='hide'>Python on Heroku</h1>
+		<div class='nav slider-nav'>
+		<ul>
+		</ul>
+		</div>
+		<div class='slider-bounds'>
+		<div class='slider-canvas'>
+		<div class='slide' id='productivity'>
+		<div class='background'></div>
+		<div class='container'>
+		<h3 class='title'>
+		The Beauty of Heroku.<br/>
+		The Power of the Pony.<br/>
+		</h3>
+		<div class='description'>
+		<p>
+		Run any python process.
+		</p>
+		</div>
+		<div class='action'>
+		<a class='button' href='http://www.heroku.com/signup'>Sign up Now</a>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+
+
+		<div class='twocol' id='content'>
+		<div id='content-background'>
+		<div class='background'>
+		<div class='left'></div>
+		<div class='right'></div>
+		</div>
+
+		<div class='container'>
+		<div class='left'></div>
+		<div class='right'>
+		<div class='shadow'></div>
+		<div id='crane'></div>
+		</div>
+		</div>
+		</div>
+
+
 		<div class="container">
-			<section id="navigation">
-			<div class="topbar-wrapper" style="z-index: 5;">
-			    <div class="topbar" data-dropdown="dropdown">
-			      <div class="topbar-inner">
-			        <div class="container">
-						<h3><a href="#">Getting Started with Heroku</a></h3>
-						<ul class="nav secondary-nav">
-						</ul>
-		          	</div>
-			      </div><!-- /topbar-inner -->
-			    </div><!-- /topbar -->
-			  </div>
-			</section>
-			<div class="content">
-				{% block content %}
-				{% endblock %}
+			<div class='section'>
+			{% block content %}
+			{% endblock %}
+		</div>
+		<div class="aside" id="heroku-sidebar">
+		<div class="aside" id="heroku-news" style="margin-bottom:300px;">
+			
+			<h2>Recent Tweets</h2>
+			<div style="margin-left:-5px;">
+				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+				new TWTR.Widget({
+				  version: 2,
+				  type: 'list',
+				  rpp: 30,
+				  interval: 30000,
+				  title: '',
+				  subject: '',
+				  width: 250,
+				  height: 300,
+				  theme: {
+				    shell: {
+				      background: '#d3d8e5',
+				      color: '#d3d8e5'
+				    },
+				    tweets: {
+				      background: '#d3d8e5',
+				      color: '#444444',
+				      links: '#444444'
+				    }
+				  },
+				  features: {
+				    scrollbar: false,
+				    loop: false,
+				    live: true,
+				    behavior: 'all'
+				  }
+				}).render().setList('HerokuPython', 'heroku-python-team').start();
+				</script>
 			</div>
 		</div>
+		</div>
+		
+
+		</div>
+
+
 		{% block bottom %}
 		{% endblock %}
+		<script>
+		$.ajax({
+		  url: 'http://nav.heroku.com/header.json',
+		  dataType: 'jsonp',
+		  success: hi
+		});
+		function hi(stuff)
+		{
+			$('body').prepend($(stuff.html));
+		}
+		</script>
 	</body>
 </html>
